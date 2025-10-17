@@ -6,10 +6,10 @@
 	<dict>
 		<key>manifestData</key>
 		<data>
-		eyJkZXBlbmRlbmNpZXMiOltdLCJkaXNwbGF5TmFtZSI6Ik5lYnVsYSIsInBh
+		eyJkZXBlbmRlbmNpZXMiOltdLCJkaXNwbGF5TmFtZSI6Ik15IEFwcCIsInBh
 		Y2thZ2VLaW5kIjp7InJvb3QiOnt9fSwicGxhdGZvcm1zIjpbeyJvcHRpb25z
 		IjpbXSwicGxhdGZvcm1OYW1lIjoiaW9zIiwidmVyc2lvbiI6IjE4LjEifV0s
-		InByb2R1Y3RzIjpbeyJuYW1lIjoiTmVidWxhIiwic2V0dGluZ3MiOlt7ImRp
+		InByb2R1Y3RzIjpbeyJuYW1lIjoiTXkgQXBwIiwic2V0dGluZ3MiOlt7ImRp
 		c3BsYXlWZXJzaW9uIjpbIjEuMCJdfSx7ImJ1bmRsZVZlcnNpb24iOlsiMSJd
 		fSx7ImlPU0FwcEluZm8iOlt7ImFjY2VudENvbG9yIjp7InByZXNldENvbG9y
 		Ijp7InByZXNldENvbG9yIjp7InJhd1ZhbHVlIjoicHVycGxlIn19fSwiYXBw
@@ -35,7 +35,7 @@
 		</data>
 		<key>manifestHash</key>
 		<data>
-		EqUeByl811rAxnXrH8Adsv1GpR4XgybgGaIVGU3DPo8=
+		949Ihpw8Z9Q3XtpJcqpqXVcfXJcX+fSvPj2Nbo6gxR0=
 		</data>
 		<key>schemaVersion</key>
 		<integer>4</integer>
