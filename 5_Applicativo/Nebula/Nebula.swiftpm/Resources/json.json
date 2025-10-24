@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Mercury",
+        "details": [
+            "Mercurio è il pianeta più interno e più piccolo del Sistema Solare, caratterizzato da un'orbita molto vicina al Sole, da temperature estreme +430ºC di giorno e -180ºC di notte e da un'assenza di atmosfera.",
+            "La sua superficie è ricoperta da crateri, simile a quella della Luna, e presenta scarpate che indicano un raffreddamento e restringimento del pianeta.",
+            "Il suo periodo orbitale è di 88 giorni terrestri, mentre quello di rotazione è di 59 giorni.",
+            "Caratteristiche fisiche e orbitali:",
+            "• Distanza dal Sole: 58 milioni di km (la più vicina)",
+            "• Periodo orbitale: 88 giorni terrestri",
+            "• Periodo di rotazione: 59 giorni terrestri",
+            "• Massa: 3.3 x 10^23 kg",
+            "• Raggio: 2440 km",
+            "• Luna: nessuna",
+            "• Nessuna atmosfera significativa"
+        ]
+    },
+    {
+        "name": "Venus",
+        "details": [
+            "Venere è il secondo pianeta dal Sole, soprannominato `gemello della Terra` per le dimensioni simili, ma è un pianeta infernale a causa della sua atmosfera densa e calda, composta principalmente da anidride carbonica.",
+            "La sua temperatura superficiale media è di circa 465-470ºC, sufficiente a fondere il piombo.",
+            "Ha una rotazione retrograda (opposta a quella della maggior parte dei pianeti) e un giorno venusiano (rotazione) dura 243 giorni terrestri.",
+            "Caratteristiche principali:",
+            "• Dimensioni e composizione: È un pianeta roccioso con un raggio circa il 95% di quello terrestre e una massa pari all'81.5% di quella terrestre",
+            "• Atmosfera: Estremamente densa, composta per circa il 96% di anidride carbonica, con una pressione al suolo circa 92 volte superiore a quella terrestre. Le nubi sono composte da acido solforico",
+            "• Temperatura: L'effetto serra causato dall'atmosfera densa intrappola il calore, rendendo Venere il pianeta più caldo del sistema solare. La temperatura superficiale è di circa 465-470ºC",
+            "• Rotazione e orbita: Ruota su se stesso molto lentamente (in senso retrogrado, cioè da est verso ovest) e in modo opposto rispetto agli altri pianeti del sistema solare",
+            "• Superficie: È caratterizzata da migliaia di vulcani, pianure desertiche e crateri da impatto. La sua superficie geologicamente è relativamente giovane",
+            "Curiosità:",
+            "• Il pianeta più luminoso: È il corpo celeste più brillante nel cielo notturno dopo la Luna, motivo per cui è noto fin dall'antichità",
+            "• Un passato potenzialmente diverso: Esistono indizi che suggeriscono che in passato Venere avesse un oceano e condizioni più miti, forse abitabili",
+            "• 'Stella del mattino/sera': È visibile solo all'alba o al tramonto, motivo per cui viene spesso chiamato 'stella del mattino' o 'stella della sera'"
+        ]
+    },
+    {
+        "name": "Earth",
+        "details": [
+            "La Terra è l’unico pianeta conosciuto che ospiti la vita, con acqua liquida, atmosfera respirabile e clima temperato.",
+            "Un anno dura 365 giorni, ha un solo satellite naturale (la Luna) e una temperatura media di 15°C.",
+            "La sua atmosfera è composta principalmente da azoto (78%) e ossigeno (21%)."
+        ]
+    },
+    {
+        "name": "Mars",
+        "details": [
+            "Marte è il pianeta rosso, quarto dal Sole, con una superficie desertica e una tenue atmosfera di CO₂.",
+            "È conosciuto per i suoi vulcani giganti e le immense valli, tra cui il Monte Olimpo e Valles Marineris.",
+            "Missioni come Perseverance e Curiosity stanno studiando la possibilità di vita passata."
+        ]
+    },
+    {
+        "name": "Jupiter",
+        "details": [
+            "Giove è il più grande pianeta del Sistema Solare, un gigante gassoso composto principalmente da idrogeno ed elio.",
+            "È famoso per la Grande Macchia Rossa, una tempesta più grande della Terra attiva da secoli.",
+            "Possiede oltre 70 lune, tra cui Io, Europa, Ganimede e Callisto."
+        ]
+    },
+    {
+        "name": "Saturn",
+        "details": [
+            "Saturno è il sesto pianeta dal Sole e il secondo più grande, noto per i suoi spettacolari anelli di ghiaccio e polvere.",
+            "La sua atmosfera è composta principalmente da idrogeno, elio e tracce di metano e ammoniaca.",
+            "Ha più di 80 lune conosciute, la più grande delle quali è Titano."
+        ]
+    },
+    {
+        "name": "Uranus",
+        "details": [
+            "Urano è un gigante ghiacciato con un insolito asse di rotazione inclinato di 98°, che lo fa ‘ruotare di lato’.",
+            "Ha una tonalità azzurra dovuta al metano nella sua atmosfera.",
+            "Possiede un debole sistema di anelli e 27 lune conosciute."
+        ]
+    },
+    {
+        "name": "Neptune",
+        "details": [
+            "Nettuno è l’ultimo pianeta del Sistema Solare, un gigante gassoso blu e freddo.",
+            "Ha i venti più forti conosciuti del sistema solare, che possono raggiungere 2.000 km/h.",
+            "Ha 14 lune, tra cui Tritone, che orbita in direzione opposta alla rotazione del pianeta."
+        ]
+    }
+]
