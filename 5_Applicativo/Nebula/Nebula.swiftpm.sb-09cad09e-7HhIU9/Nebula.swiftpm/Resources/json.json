@@ -20,11 +20,7 @@
             "- Campo magnetico debole: Possiede un debole campo magnetico, circa l'1% di quello terrestre, generato probabilmente dal nucleo fuso.",
             "- Ghiaccio nei crateri: Nelle regioni polari, all'interno di crateri profondi che non ricevono mai la luce solare, è stata rilevata la presenza di ghiaccio d'acqua.",
             "- Difficile da esplorare: La sua vicinanza al Sole rende complesse le missioni spaziali. Le sonde Mariner 10 e MESSENGER lo hanno visitato, e la missione BepiColombo è attualmente in orbita attorno al pianeta."
-        ],
-        "video": {
-            "url": "https://youtu.be/j95-YGTI3rc?si=lS08QhoRBcxcSCD4",
-            "title": "Mercurio - Il pianeta più vicino al Sole"
-            }
+        ]
     },
     {
         "name": "Venus",
@@ -42,11 +38,7 @@
             "- Il pianeta più luminoso: È il corpo celeste più brillante nel cielo notturno dopo la Luna, motivo per cui è noto fin dall'antichità",
             "- Un passato potenzialmente diverso: Esistono indizi che suggeriscono che in passato Venere avesse un oceano e condizioni più miti, forse abitabili",
             "- 'Stella del mattino/sera': È visibile solo all'alba o al tramonto, motivo per cui viene spesso chiamato 'stella del mattino' o 'stella della sera'"
-        ],
-        "video": {
-            "url": "https://youtu.be/OGdemeShUgw?si=SSFMnYiiMfDITsLe",
-            "title": "Venere - Il pianeta dell‘amore"
-        }
+        ]
     },
     {
         "name": "Earth",
@@ -70,11 +62,7 @@
             "- Idrosfera: Le acque del pianeta in tutti i loro stati (liquido, solido e gassoso).",
             "- Atmosfera: L'involucro gassoso che circonda il pianeta.",
             "- Biosfera: L'insieme di tutti gli esseri viventi."
-        ],
-        "video": {
-            "url": "https://youtu.be/OGdemeShUgw?si=SSFMnYiiMfDITsLe",
-            "title": "Venere - Il pianeta dell‘amore"
-        }
+        ]
     },
     {
         "name": "Mars",
