@@ -1,4 +1,5 @@
 import SwiftUI
+import AVKit
 
 struct PlanetDetailView: View {
     var planet: Planet
@@ -32,17 +33,19 @@ struct PlanetDetailView: View {
                 }
                 
                 if let video = planet.video {
-                    Link(destination: URL(string: video.url)!) {
-                        Text(video.title ?? "Guarda il video")
-                            .foregroundColor(.blue)
-                            .font(.headline)
-                            .padding(.top, 10)
-                            .padding(.horizontal, UIDevice.current.userInterfaceIdiom == .pad ? 80 : 20)
-                            .frame(maxWidth: .infinity, alignment: .leading)
+                    if let url = Bundle.main.url(forResource: video.url.replacingOccurrences(of: ".mp4", with: ""), withExtension: "mp4") {
+                        VideoPlayer(player: AVPlayer(url: url))
+                            .frame(width: 420, height: 250) 
+                            .cornerRadius(12)
+                            .shadow(radius: 5)
+                            .padding()
+                    } else {
+                        Text("Video non trovato")
+                            .foregroundColor(.red)
                     }
                 }
                 
-                Spacer(minLength: 40)
+                Spacer(minLength: 10)
             }
             .frame(maxWidth: .infinity)
         }
@@ -54,5 +57,28 @@ struct PlanetDetailView: View {
         )
         .foregroundColor(.white)
         .navigationBarTitleDisplayMode(.inline)
+    }
+}
+import AVKit
+
+struct VideoButton: View {
+    let localVideoURL: URL
+    let title: String
+    @State private var showPlayer = false
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Button(action: {
+                showPlayer = true
+            }) {
+                Label(title, systemImage: "play.circle.fill")
+                    .foregroundColor(.white)
+                    .font(.headline)
+            }
+            .sheet(isPresented: $showPlayer) {
+                VideoPlayer(player: AVPlayer(url: localVideoURL))
+                    .edgesIgnoringSafeArea(.all)
+            }
+        }
     }
 }

@@ -4,14 +4,14 @@ struct HomeView: View {
     let planetsData = PlanetData.load()
     
     let orbitals = [
-        ("Mercury", 80.0, 4.0, 20.0),
-        ("Venus", 110.0, 6.0, 30.0),
-        ("Earth", 140.0, 8.0, 50.0),
-        ("Mars", 170.0, 10.0, 30.0),
-        ("Jupiter", 200.0, 12.0, 45.0),
-        ("Saturn", 230.0, 14.0, 60.0),
-        ("Uranus", 260.0, 16.0, 35.0),
-        ("Neptun", 290.0, 18.0, 30.0)
+        ("Mercurio", 80.0, 4.0, 20.0),
+        ("Venere", 110.0, 6.0, 30.0),
+        ("Terra", 140.0, 8.0, 50.0),
+        ("Marte", 170.0, 10.0, 30.0),
+        ("Giove", 200.0, 12.0, 45.0),
+        ("Saturno", 230.0, 14.0, 60.0),
+        ("Urano", 260.0, 16.0, 35.0),
+        ("Nettuno", 290.0, 18.0, 30.0)
     ]
     
     var body: some View {

@@ -1,6 +1,6 @@
 [
     {
-        "name": "Mercury",
+        "name": "Mercurio",
         "details": [
             "Mercurio è il pianeta più piccolo e più interno del sistema solare, noto per la sua vicinanza al Sole, l'assenza di un'atmosfera significativa e un'estrema escursione termica.",
             "Caratteristiche principali:",
@@ -22,12 +22,12 @@
             "- Difficile da esplorare: La sua vicinanza al Sole rende complesse le missioni spaziali. Le sonde Mariner 10 e MESSENGER lo hanno visitato, e la missione BepiColombo è attualmente in orbita attorno al pianeta."
         ],
         "video": {
-            "url": "https://youtu.be/j95-YGTI3rc?si=lS08QhoRBcxcSCD4",
+            "url": "Mercurio.mp4",
             "title": "Mercurio - Il pianeta più vicino al Sole"
             }
     },
     {
-        "name": "Venus",
+        "name": "Venere",
         "details": [
             "Venere è il secondo pianeta dal Sole, soprannominato `gemello della Terra` per le dimensioni simili, ma è un pianeta infernale a causa della sua atmosfera densa e calda, composta principalmente da anidride carbonica.",
             "La sua temperatura superficiale media è di circa 465-470ºC, sufficiente a fondere il piombo.",
@@ -44,12 +44,12 @@
             "- 'Stella del mattino/sera': È visibile solo all'alba o al tramonto, motivo per cui viene spesso chiamato 'stella del mattino' o 'stella della sera'"
         ],
         "video": {
-            "url": "https://youtu.be/OGdemeShUgw?si=SSFMnYiiMfDITsLe",
+            "url": "Venere.mp4",
             "title": "Venere - Il pianeta dell‘amore"
         }
     },
     {
-        "name": "Earth",
+        "name": "Terra",
         "details": [
             "La Terra è il terzo pianeta del sistema solare e l'unico luogo conosciuto in cui sia presente la vita. La sua struttura, i suoi movimenti e la sua composizione la rendono un corpo celeste unico.",
             "Caratteristiche principali",
@@ -72,12 +72,12 @@
             "- Biosfera: L'insieme di tutti gli esseri viventi."
         ],
         "video": {
-            "url": "https://youtu.be/OGdemeShUgw?si=SSFMnYiiMfDITsLe",
+            "url": "Terra.mp4",
             "title": "Venere - Il pianeta dell‘amore"
         }
     },
     {
-        "name": "Mars",
+        "name": "Marte",
         "details": [
             "Marte, noto anche come il 'Pianeta Rosso', è il quarto pianeta del Sistema Solare e il secondo più piccolo dopo Mercurio. Prende il nome dal dio romano della guerra, un riferimento al suo colore rossastro, causato dalla grande quantità di ossido di ferro (ruggine) presente nella sua roccia e nel suo suolo.",
             "Caratteristiche fisiche",
@@ -95,10 +95,14 @@
             "- Acqua: Sebbene la maggior parte dell'acqua su Marte esista sotto forma di ghiaccio nelle calotte polari e nel sottosuolo, ci sono prove di antichi fiumi e laghi, suggerendo che in passato il pianeta fosse più umido e caldo.",
             "Esplorazione",
             "- Marte è il pianeta più esplorato del Sistema Solare dopo la Terra, con numerose missioni di sonde, rover e lander che ne studiano l'ambiente. La ricerca di tracce di vita passata è un obiettivo primario di queste missioni."
-        ]
+        ],
+        "video": {
+            "url": "Marte.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
     },
     {
-        "name": "Jupiter",
+        "name": "Giove",
         "details": [
             "Giove è il quinto e più grande pianeta del sistema solare, un gigante gassoso la cui massa è quasi due volte e mezzo quella di tutti gli altri pianeti messi insieme.",
             "Caratteristiche principali",
@@ -118,10 +122,14 @@
             "Influenza sul sistema solare",
             "- Forza gravitazionale: La sua enorme massa esercita una forte attrazione gravitazionale, che ha un impatto significativo sulla stabilità delle orbite degli altri corpi celesti. Ha probabilmente contribuito a modellare il sistema solare nella sua forma attuale.",
             "- 'Spazzino cosmico': La sua gravità lo rende un efficace 'aspiratore' di comete e asteroidi, contribuendo a proteggere i pianeti interni, inclusa la Terra, dagli impatti."
-        ]
+        ],
+        "video": {
+            "url": "Giove.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
     },
     {
-        "name": "Saturn",
+        "name": "Saturno",
         "details": [
             "Saturno è il sesto pianeta del sistema solare e il secondo più grande dopo Giove. È noto per il suo spettacolare e visibile sistema di anelli.",
             "Caratteristiche principali",
@@ -134,10 +142,14 @@
             "- Interno: Sotto lo strato gassoso superficiale, l'idrogeno diventa liquido a causa dell'alta pressione e, a profondità maggiori, assume una forma metallica che circonda un nucleo roccioso e molto caldo.",
             "- Calore interno: Saturno irradia più energia di quella che riceve dal Sole, a causa del calore generato internamente.",
             "- Esplorazione: Diversi veicoli spaziali hanno visitato Saturno, tra cui la sonda Cassini-Huygens, che ha fornito dati preziosi sul pianeta e le sue lune."
-        ]
+        ],
+        "video": {
+            "url": "Saturno.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
     },
     {
-        "name": "Uranus",
+        "name": "Urano",
         "details": [
             "Urano è il settimo pianeta del sistema solare e il terzo più grande in termini di diametro. Le sue caratteristiche principali includono la sua classificazione come 'gigante di ghiaccio', un'inclinazione assiale unica e un colore ciano-blu distintivo.",
             "Classificazione e composizione",
@@ -156,10 +168,14 @@
             "- Numerose lune: Il pianeta ha 28 lune conosciute.",
             "Esplorazione",
             "- Visita di Voyager 2: L'unica navicella spaziale ad aver visitato Urano è stata la Voyager 2 della NASA, che ha effettuato un sorvolo ravvicinato nel 1986."
-        ]
+        ],
+        "video": {
+            "url": "Urano.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
     },
     {
-        "name": "Neptun",
+        "name": "Nettuno",
         "details": [
             "Nettuno è l'ottavo e più lontano pianeta del sistema solare, conosciuto come un gigante di ghiaccio freddo e ventoso. Prende il nome dal dio romano del mare, un riferimento appropriato al suo colore blu scuro.",
             "Caratteristiche principali",
@@ -177,6 +193,10 @@
             "- Sistema di anelli: Nettuno possiede un debole sistema di anelli sottili e scuri, scoperti e fotografati dalla sonda Voyager 2.",
             "- Satelliti: Ha 14 satelliti naturali noti. Il più grande è Tritone, un satellite insolito che orbita in senso opposto alla rotazione del pianeta.",
             "- Scoperta: È stato il primo pianeta a essere scoperto tramite calcoli matematici, basati sulle anomalie orbitali di Urano, e non tramite l'osservazione diretta."
-        ]
+        ],
+        "video": {
+            "url": "Nettuno.mp4",
+            "title": "Nettuno - Il pianeta dell‘amore"
+        }
     }
 ]
