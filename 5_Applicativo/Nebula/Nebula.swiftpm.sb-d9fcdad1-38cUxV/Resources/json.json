@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Mercurio",
+        "details": [
+            "Mercurio è il pianeta più piccolo e più interno del sistema solare, noto per la sua vicinanza al Sole, l'assenza di un'atmosfera significativa e un'estrema escursione termica.",
+            "Caratteristiche principali:",
+            "Posizione e orbita",
+            "- Pianeta più vicino al Sole: La sua distanza media dal Sole è di circa 58 milioni di km, ma la sua orbita ellittica varia tra i 46 e 70 milioni di km.",
+            "- Pianeta più veloce: Completa un'orbita intorno al Sole in soli 88 giorni terrestri, muovendosi a una velocità media di 47 km/s.",
+            "- Rotazione lenta: Ruota molto lentamente su se stesso, impiegando circa 59 giorni terrestri per una rotazione completa. A causa di una particolare risonanza spin-orbita, un giorno solare (da un'alba all'altra) dura 176 giorni terrestri.",
+            "Dimensioni e composizione",
+            "- Pianeta più piccolo: Con un raggio di circa 2.440 km, è poco più grande della Luna.",
+            "- Nucleo massiccio: È composto per l'80% da un enorme nucleo metallico, principalmente ferroso, che occupa gran parte del suo volume. Si ritiene che una parte di questo nucleo sia fusa.",
+            "- Densità elevata: La sua alta densità, quasi uguale a quella della Terra, è dovuta proprio alla grande dimensione del nucleo.",
+            "Superficie e atmosfera",
+            "- Ricoperto di crateri: La superficie è simile a quella della Luna, con numerosi crateri da impatto, vaste pianure e ripide scarpate. Il Bacino Caloris è una delle strutture da impatto più grandi.",
+            "- Esosfera: Non ha un'atmosfera densa, ma una sottile esosfera composta da atomi rilasciati dalla superficie e dal vento solare, come ossigeno, sodio e idrogeno.",
+            "- Escursione termica estrema: L'assenza di atmosfera causa variazioni di temperatura estreme. La superficie esposta al Sole può raggiungere i 430 °C, mentre il lato in ombra scende a -180 °C.",
+            "Altri aspetti",
+            "- Campo magnetico debole: Possiede un debole campo magnetico, circa l'1% di quello terrestre, generato probabilmente dal nucleo fuso.",
+            "- Ghiaccio nei crateri: Nelle regioni polari, all'interno di crateri profondi che non ricevono mai la luce solare, è stata rilevata la presenza di ghiaccio d'acqua.",
+            "- Difficile da esplorare: La sua vicinanza al Sole rende complesse le missioni spaziali. Le sonde Mariner 10 e MESSENGER lo hanno visitato, e la missione BepiColombo è attualmente in orbita attorno al pianeta."
+        ],
+        "video": {
+            "url": "Mercurio.mp4",
+            "title": "Mercurio - Il pianeta più vicino al Sole"
+            }
+    },
+    {
+        "name": "Venere",
+        "details": [
+            "Venere è il secondo pianeta dal Sole, soprannominato `gemello della Terra` per le dimensioni simili, ma è un pianeta infernale a causa della sua atmosfera densa e calda, composta principalmente da anidride carbonica.",
+            "La sua temperatura superficiale media è di circa 465-470ºC, sufficiente a fondere il piombo.",
+            "Ha una rotazione retrograda (opposta a quella della maggior parte dei pianeti) e un giorno venusiano (rotazione) dura 243 giorni terrestri.",
+            "Caratteristiche principali:",
+            "- Dimensioni e composizione: È un pianeta roccioso con un raggio circa il 95% di quello terrestre e una massa pari all'81.5% di quella terrestre",
+            "- Atmosfera: Estremamente densa, composta per circa il 96% di anidride carbonica, con una pressione al suolo circa 92 volte superiore a quella terrestre. Le nubi sono composte da acido solforico",
+            "- Temperatura: L'effetto serra causato dall'atmosfera densa intrappola il calore, rendendo Venere il pianeta più caldo del sistema solare. La temperatura superficiale è di circa 465-470ºC",
+            "- Rotazione e orbita: Ruota su se stesso molto lentamente (in senso retrogrado, cioè da est verso ovest) e in modo opposto rispetto agli altri pianeti del sistema solare",
+            "- Superficie: È caratterizzata da migliaia di vulcani, pianure desertiche e crateri da impatto. La sua superficie geologicamente è relativamente giovane",
+            "Curiosità:",
+            "- Il pianeta più luminoso: È il corpo celeste più brillante nel cielo notturno dopo la Luna, motivo per cui è noto fin dall'antichità",
+            "- Un passato potenzialmente diverso: Esistono indizi che suggeriscono che in passato Venere avesse un oceano e condizioni più miti, forse abitabili",
+            "- 'Stella del mattino/sera': È visibile solo all'alba o al tramonto, motivo per cui viene spesso chiamato 'stella del mattino' o 'stella della sera'"
+        ],
+        "video": {
+            "url": "Venere.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Terra",
+        "details": [
+            "La Terra è il terzo pianeta del sistema solare e l'unico luogo conosciuto in cui sia presente la vita. La sua struttura, i suoi movimenti e la sua composizione la rendono un corpo celeste unico.",
+            "Caratteristiche principali",
+            "- Posizione nel sistema solare: È il terzo pianeta a partire dal Sole, a una distanza media di circa 150 milioni di chilometri.",
+            "- Forma: La sua forma non è una sfera perfetta, ma un geoide. È leggermente schiacciata ai poli e rigonfia all'equatore.",
+            "- Dimensioni: Ha un raggio di circa 6.378 km e una massa di circa 5,98 x 10^24 kg.",
+            "- Composizione: È un pianeta roccioso, costituito da diversi strati:",
+            "- Crosta: Lo strato più esterno.",
+            "- Mantello: Uno strato intermedio.",
+            "- Nucleo: La parte più interna, composta principalmente da ferro e nichel, divisa in nucleo esterno (fluido) e nucleo interno (solido).",
+            "- Acqua: Circa il 70% della superficie terrestre è coperto da acqua.",
+            "Moti della Terra",
+            "- Rotazione: La Terra compie un giro completo su se stessa in circa 24 ore, ruotando intorno al proprio asse. Questo movimento determina l'alternarsi del giorno e della notte.",
+            "- Rivoluzione: La Terra compie un'orbita completa intorno al Sole in circa 365 giorni. Questo movimento causa l'alternarsi delle stagioni.",
+            "Componenti del sistema terrestre",
+            "Il pianeta è considerato un sistema integrato composto da quattro 'sfere' principali che interagiscono tra loro:",
+            "- Litosfera: La parte solida, comprendente la crosta e parte del mantello.",
+            "- Idrosfera: Le acque del pianeta in tutti i loro stati (liquido, solido e gassoso).",
+            "- Atmosfera: L'involucro gassoso che circonda il pianeta.",
+            "- Biosfera: L'insieme di tutti gli esseri viventi."
+        ],
+        "video": {
+            "url": "Terra.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Marte",
+        "details": [
+            "Marte, noto anche come il 'Pianeta Rosso', è il quarto pianeta del Sistema Solare e il secondo più piccolo dopo Mercurio. Prende il nome dal dio romano della guerra, un riferimento al suo colore rossastro, causato dalla grande quantità di ossido di ferro (ruggine) presente nella sua roccia e nel suo suolo.",
+            "Caratteristiche fisiche",
+            "- Dimensioni: Con un diametro di circa 6.794 km, Marte è poco più della metà delle dimensioni della Terra. Tuttavia, la sua superficie terrestre è paragonabile all'intera superficie terrestre, dato che la Terra è coperta per la maggior parte dall'acqua.",
+            "- Temperatura: Essendo più lontano dal Sole, Marte è un mondo freddo. La sua temperatura media si aggira intorno a -55 °C, con estremi che vanno da circa 20 °C all'equatore a -140 °C ai poli.",
+            "- Gravità: La gravità superficiale di Marte è solo il 38% di quella terrestre.",
+            "- Atmosfera: L'atmosfera marziana è molto sottile, con una pressione superficiale inferiore all'1% di quella terrestre. È composta principalmente da anidride carbonica (circa 95%), con piccole quantità di azoto e argon.",
+            "- Superficie: È un mondo desertico e roccioso, caratterizzato da grandi vulcani (come il Monte Olimpo, il più grande del Sistema Solare) e vasti canyon. Sulla sua superficie si verificano gigantesche tempeste di polvere che possono coprire l'intero pianeta.",
+            "Dinamiche orbitali",
+            "- Anno marziano: Un anno su Marte dura circa 687 giorni terrestri, quasi il doppio di un anno sulla Terra.",
+            "- Giorno marziano (sol): La rotazione marziana è molto simile a quella terrestre. Un giorno marziano, chiamato 'sol', dura 24,6 ore.",
+            "- Stagioni: Grazie all'inclinazione del suo asse di rotazione (simile a quella terrestre), Marte sperimenta stagioni. Tuttavia, a causa della sua orbita più eccentrica, le stagioni non sono uniformi nei due emisferi.",
+            "Satelliti e acqua",
+            "- Lune: Marte ha due piccole lune, Fobos e Deimos, che si ritiene siano asteroidi catturati.",
+            "- Acqua: Sebbene la maggior parte dell'acqua su Marte esista sotto forma di ghiaccio nelle calotte polari e nel sottosuolo, ci sono prove di antichi fiumi e laghi, suggerendo che in passato il pianeta fosse più umido e caldo.",
+            "Esplorazione",
+            "- Marte è il pianeta più esplorato del Sistema Solare dopo la Terra, con numerose missioni di sonde, rover e lander che ne studiano l'ambiente. La ricerca di tracce di vita passata è un obiettivo primario di queste missioni."
+        ],
+        "video": {
+            "url": "Marte.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Giove",
+        "details": [
+            "Giove è il quinto e più grande pianeta del sistema solare, un gigante gassoso la cui massa è quasi due volte e mezzo quella di tutti gli altri pianeti messi insieme.",
+            "Caratteristiche principali",
+            "- Composizione: È composto principalmente da idrogeno ed elio, con tracce di metano, ammoniaca, idrogeno solforato e vapore acqueo.",
+            "- Struttura: Non ha una superficie solida. Al suo interno, la pressione è così alta da trasformare l'idrogeno in un liquido metallico. Si ritiene che al centro abbia un nucleo roccioso solido.",
+            "- Atmosfera e clima: L'atmosfera è caratterizzata da bande nuvolose di diversi colori che creano un sistema di vortici e tempeste. La più nota è la Grande Macchia Rossa, una tempesta anticiclonica che infuria da secoli. I venti di Giove possono superare i 500 km/h.",
+            "- Rotazione: Ha la rotazione più veloce di tutti i pianeti del sistema solare, con un giorno che dura poco meno di 10 ore terrestri. Questa rapida rotazione provoca un leggero rigonfiamento all'equatore.",
+            "- Orbita: Giove impiega circa 11,86 anni terrestri per completare un'orbita intorno al Sole.",
+            "Satelliti e anelli",
+            "- Numero di lune: Giove ha un vasto sistema di satelliti. Al 30 aprile 2025, sono state confermate 97 lune con orbite stabili.",
+            "- Lune galileiane: Le quattro lune più grandi, scoperte da Galileo Galilei nel 1610, sono le più famose:",
+            "- Io: Estremamente vulcanica.",
+            "- Europa: Si ritiene che ospiti un oceano d'acqua salata sotto la sua superficie ghiacciata.",
+            "- Ganimede: Il satellite più grande del sistema solare.",
+            "- Callisto: Il terzo satellite più grande del sistema solare.",
+            "- Anelli: Anche Giove possiede un sistema di anelli, sebbene siano molto deboli e composti principalmente da polvere, a differenza dei più vistosi anelli di Saturno. Il sistema è costituito da quattro parti principali: un anello ad alone, un anello principale e due anelli esterni sottili.",
+            "Influenza sul sistema solare",
+            "- Forza gravitazionale: La sua enorme massa esercita una forte attrazione gravitazionale, che ha un impatto significativo sulla stabilità delle orbite degli altri corpi celesti. Ha probabilmente contribuito a modellare il sistema solare nella sua forma attuale.",
+            "- 'Spazzino cosmico': La sua gravità lo rende un efficace 'aspiratore' di comete e asteroidi, contribuendo a proteggere i pianeti interni, inclusa la Terra, dagli impatti."
+        ],
+        "video": {
+            "url": "Giove.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Saturno",
+        "details": [
+            "Saturno è il sesto pianeta del sistema solare e il secondo più grande dopo Giove. È noto per il suo spettacolare e visibile sistema di anelli.",
+            "Caratteristiche principali",
+            "- Tipo di pianeta: È un gigante gassoso, privo di una superficie solida su cui si possa atterrare, ed è composto principalmente da idrogeno ed elio.",
+            "- Densità: Ha la densità più bassa di tutti i pianeti del nostro sistema solare, addirittura inferiore a quella dell'acqua. Ciò significa che, in teoria, 'galleggerebbe' se fosse possibile metterlo in un'immensa vasca d'acqua.",
+            "- Anelli: Il suo iconico sistema di anelli è composto da innumerevoli particelle di roccia, polvere e ghiaccio, che vanno da granelli minuscoli a pezzi grandi quanto una casa.",
+            "- Atmosfera: L'atmosfera è caratterizzata da bande nuvolose e turbolenze, con venti estremamente veloci che possono raggiungere i 1.800 km/h nella fascia equatoriale. Al polo nord è presente una formazione nuvolosa unica, a forma di esagono.",
+            "- Temperature: Le temperature su Saturno sono molto basse, con una media che si aggira intorno ai -180 °C.",
+            "- Satelliti: Possiede numerosi satelliti naturali. Il più grande e famoso è Titano, che è l'unica luna del sistema solare ad avere un'atmosfera densa.",
+            "- Interno: Sotto lo strato gassoso superficiale, l'idrogeno diventa liquido a causa dell'alta pressione e, a profondità maggiori, assume una forma metallica che circonda un nucleo roccioso e molto caldo.",
+            "- Calore interno: Saturno irradia più energia di quella che riceve dal Sole, a causa del calore generato internamente.",
+            "- Esplorazione: Diversi veicoli spaziali hanno visitato Saturno, tra cui la sonda Cassini-Huygens, che ha fornito dati preziosi sul pianeta e le sue lune."
+        ],
+        "video": {
+            "url": "Saturno.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Urano",
+        "details": [
+            "Urano è il settimo pianeta del sistema solare e il terzo più grande in termini di diametro. Le sue caratteristiche principali includono la sua classificazione come 'gigante di ghiaccio', un'inclinazione assiale unica e un colore ciano-blu distintivo.",
+            "Classificazione e composizione",
+            "- Gigante di ghiaccio: A differenza dei giganti gassosi Giove e Saturno, Urano è composto in gran parte da materiali 'ghiacciati' (sostanze volatili che si solidificano a basse temperature), come acqua, metano e ammoniaca, che si trovano in uno stato fluido caldo e denso sopra un piccolo nucleo roccioso.",
+            "- Assenza di una superficie solida: Come gli altri giganti del sistema solare, non ha una superficie solida su cui atterrare.",
+            "- Composizione dell'atmosfera: L'atmosfera è composta principalmente da idrogeno ed elio, con tracce di metano che assorbono la luce rossa e conferiscono al pianeta il suo caratteristico colore.",
+            "- Temperature estreme: Urano è il pianeta più freddo del sistema solare, con una temperatura minima registrata di -224,2°C.",
+            "Rotazione e orbita",
+            "- Inclinazione assiale estrema: L'asse di rotazione di Urano è inclinato di quasi 98 gradi rispetto al suo piano orbitale, facendolo apparire come se ruotasse su un fianco. Si pensa che questa inclinazione sia il risultato di un'antica collisione con un oggetto delle dimensioni di un pianeta.",
+            "- Stagioni estreme: L'inclinazione estrema causa stagioni altrettanto estreme. I poli di Urano sperimentano circa 42 anni di luce solare continua, seguiti da 42 anni di oscurità.",
+            "- Rotazione retrograda: Urano, insieme a Venere, è uno dei due soli pianeti del sistema solare a ruotare in senso orario (retrogrado).",
+            "- Periodo orbitale: Un anno su Urano equivale a circa 84 anni terrestri.",
+            "- Periodo di rotazione: Un giorno su Urano dura circa 17 ore.",
+            "Sistema di anelli e lune",
+            "- Anelli deboli: Urano ha un sistema di 13 anelli stretti e scuri, più difficili da osservare rispetto a quelli di Saturno.",
+            "- Numerose lune: Il pianeta ha 28 lune conosciute.",
+            "Esplorazione",
+            "- Visita di Voyager 2: L'unica navicella spaziale ad aver visitato Urano è stata la Voyager 2 della NASA, che ha effettuato un sorvolo ravvicinato nel 1986."
+        ],
+        "video": {
+            "url": "Urano.mp4",
+            "title": "Venere - Il pianeta dell‘amore"
+        }
+    },
+    {
+        "name": "Nettuno",
+        "details": [
+            "Nettuno è l'ottavo e più lontano pianeta del sistema solare, conosciuto come un gigante di ghiaccio freddo e ventoso. Prende il nome dal dio romano del mare, un riferimento appropriato al suo colore blu scuro.",
+            "Caratteristiche principali",
+            "- Tipologia: È un gigante di ghiaccio, con una composizione interna di acqua, ammoniaca e metano, e un nucleo roccioso. Non ha una superficie solida ben definita.",
+            "- Colore blu: La sua tonalità blu intensa è causata dalla presenza di metano nell'atmosfera, che assorbe la luce rossa.",
+            "- Venti e tempeste: Possiede i venti più veloci del sistema solare, con raffiche che superano i 2.000 km/h. Sulla sua superficie si formano tempeste massicce, come la 'Grande Macchia Scura' osservata dalla sonda Voyager 2 nel 1989.",
+            "Distanza e orbita:",
+            "- È 30 volte più distante dal Sole rispetto alla Terra.",
+            "- Un anno su Nettuno dura circa 165 anni terrestri, a causa della sua vasta orbita.",
+            "Dimensioni e massa:",
+            "- È il quarto pianeta per dimensioni e il terzo più massiccio del sistema solare.",
+            "- La sua massa è circa 17 volte quella della Terra.",
+            "- Atmosfera: È composta principalmente da idrogeno, elio e metano.",
+            "- Temperature estreme: Le temperature sono estremamente basse a causa della sua distanza dal Sole, con una media di circa -201 °C.",
+            "- Sistema di anelli: Nettuno possiede un debole sistema di anelli sottili e scuri, scoperti e fotografati dalla sonda Voyager 2.",
+            "- Satelliti: Ha 14 satelliti naturali noti. Il più grande è Tritone, un satellite insolito che orbita in senso opposto alla rotazione del pianeta.",
+            "- Scoperta: È stato il primo pianeta a essere scoperto tramite calcoli matematici, basati sulle anomalie orbitali di Urano, e non tramite l'osservazione diretta."
+        ],
+        "video": {
+            "url": "Nettuno.mp4",
+            "title": "Nettuno - Il pianeta dell‘amore"
+        }
+    }
+]

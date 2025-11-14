@@ -58,9 +58,6 @@ struct HomeView: View {
             ToolbarItem(placement: .navigationBarTrailing) {
                 NavigationLink(destination: InfoView()) {
                     Text("Info del giorno")
-                        .frame(width: 150, height: 30)
-                        .background(.white)
-                        .foregroundColor(.black)
                 }
             }
         }

@@ -28,14 +28,12 @@ struct HomeView: View {
             ForEach(planetsData, id: \.name) { planet in
                 if let orbital = orbitals.first(where: { $0.0 == planet.name }) {
                     NavigationLink(destination: PlanetDetailView(planet: planet)) {
-                        PlanetView(
-                            imageName: planet.name,
-                            radius: orbital.1,
-                            duration: orbital.2,
-                            size: orbital.3
-                        )
+                        PlanetView(imageName: planet.name,
+                                   radius: orbital.1,
+                                   duration: orbital.2,
+                                   size: orbital.3)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(PlainButtonStyle())
                 }
             }
             
@@ -51,17 +49,6 @@ struct HomeView: View {
                         .shadow(radius: 10)
                 }
                 Spacer()
-            }
-        }
-        .navigationTitle("Sistema Solare")
-        .toolbar {
-            ToolbarItem(placement: .navigationBarTrailing) {
-                NavigationLink(destination: InfoView()) {
-                    Text("Info del giorno")
-                        .frame(width: 150, height: 30)
-                        .background(.white)
-                        .foregroundColor(.black)
-                }
             }
         }
     }
