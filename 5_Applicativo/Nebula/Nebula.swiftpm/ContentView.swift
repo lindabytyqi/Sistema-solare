@@ -10,17 +10,17 @@ struct ContentView: View {
                     .ignoresSafeArea()
                 
                 VStack(spacing: 30) {
-                    Text("Benvenuto su Nebula!")
+                    Text("Welcome to Nebula!")
                         .foregroundColor(.white)
                         .bold()
                         .font(.largeTitle)
                         .multilineTextAlignment(.center)
                     
                     NavigationLink(destination: HomeView()) {
-                        Text("Scopri il mondo dell’universo")
+                        Text("Explore space, one planet at a time")
                             .foregroundColor(.black)
                             .font(.title2)
-                            .frame(width: 350, height: 50)
+                            .frame(width: 450, height: 50)
                             .background(Color.white)
                             .cornerRadius(25)
                             .shadow(radius: 5)

@@ -7,7 +7,7 @@ struct PlanetDetailView: View {
     var body: some View {
         ScrollView {
             VStack(spacing: 20) {
-                Text("Benvenuto su \(planet.name)")
+                Text(planet.name)
                     .font(.largeTitle)
                     .bold()
                     .multilineTextAlignment(.center)
