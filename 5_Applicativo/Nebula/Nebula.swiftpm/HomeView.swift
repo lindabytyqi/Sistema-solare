@@ -1,10 +1,17 @@
+/*
+Autore: Linda Bytyqi
+Descrizione: Creazione del Sistema Solare, dello zoom, della Luna e della NavBar
+Data: 09.09.2025
+*/
 import SwiftUI
 
 struct HomeView: View {
-    let planetsData = PlanetData.load()
+    let planetsData = PlanetData.load() //Prende i dati da PlanetData
     
+    //Array con tutti i pianeti
     let orbitals = [
-        ("Mercury", 80.0, 4.0, 20.0),
+        //("Nome pianeta", raggio orbitale, dimensione, velocità)
+        ("Mercury", 80.0, 4.0, 20.0), 
         ("Venus", 110.0, 6.0, 30.0),
         ("Earth", 140.0, 8.0, 50.0),
         ("Mars", 170.0, 10.0, 30.0),
@@ -14,32 +21,31 @@ struct HomeView: View {
         ("Neptun", 290.0, 18.0, 30.0)
     ]
     
+    //Usati per gestire lo zoom
     @State private var scale: CGFloat = 1.0
     @State private var lastScale: CGFloat = 1.0
     
     var body: some View {
         ZStack {
             
-            // 🌌 Se zoom molto basso → mostra solo la galassia
+            //se la scala < 0.7, mostra la galassia
             if scale < 0.7 {
                 Image("Galaxy")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
             } else {
-                
-                // 🌞 Sfondo normale del sistema solare
+                //se no il sistema solare
                 Image("Background")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
-                
-                // ☀️ Sole
+               
                 Image("Sun")
                     .resizable()
                     .frame(width: 100, height: 100)
                 
-                // 🌍 Pianeti in orbita
+                //Mostra pianeti e navigazione
                 ForEach(planetsData, id: \.name) { planet in
                     if let orbital = orbitals.first(where: { $0.0 == planet.name }) {
                         NavigationLink(destination: PlanetDetailView(planet: planet)) {
@@ -52,7 +58,7 @@ struct HomeView: View {
                     }
                 }
                 
-                // 🌙 Luna fissa
+                //Creazione della Luna
                 VStack {
                     HStack {
                         Spacer()
@@ -69,7 +75,6 @@ struct HomeView: View {
             }
         }
         
-        // 🔍 Zoom
         .gesture(
             MagnificationGesture()
                 .onChanged { value in
@@ -79,8 +84,9 @@ struct HomeView: View {
                     lastScale = scale
                 }
         )
-        .scaleEffect(scale >= 0.7 ? scale : 1.0) // evita che la galassia si rimpicciolisca
+        .scaleEffect(scale >= 0.7 ? scale : 1.0) 
         
+        //NavBar
         .navigationTitle("Solar System")
         .toolbar {
             ToolbarItemGroup(placement: .topBar) {

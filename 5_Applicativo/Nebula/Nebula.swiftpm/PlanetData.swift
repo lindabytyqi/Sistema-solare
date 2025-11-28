@@ -1,4 +1,11 @@
+/*
+Autore: Linda Bytyqi
+Descrizione: Caricamento dati JSON dinamico
+Data: 09.09.2025
+*/
 import Foundation
+
+//Controlli file JSON
 
 class PlanetData {
     static func load() -> [Planet] {

@@ -1,3 +1,8 @@
+/*
+Autore: Linda Bytyqi
+Descrizione: Strutture dati per pianeti
+Data: 09.09.2025
+*/
 import Foundation
 
 struct Video: Codable {
