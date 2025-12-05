@@ -1,12 +1,8 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Caricamento dati JSON dinamico
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: caricamento dati JSON dinamico
+//Data: 09.09.2025
 import Foundation
-
-//Controlli file JSON
-
+//controlli file JSON
 class PlanetData {
     static func load() -> [Planet] {
         guard let url = Bundle.main.url(forResource: "json", withExtension: "json") else {

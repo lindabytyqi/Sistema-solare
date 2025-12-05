@@ -1,23 +1,21 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Gestione API APOD
-Data: 09.09.2025
-*/
-import SwiftUI
+//Autore: Linda Bytyqi
+//Descrizione: gestione API APOD
+//Data: 09.09.2025
+import SwiftUI 
 
-//Modello per il JSON di risposta
+// modello per il JSON di risposta
 struct APOD: Decodable {
     let url: String
     let title: String
     let explanation: String
 }
 
-
+// ViewModel che fa il fetch dell’APOD
 class APODViewModel: ObservableObject {
     @Published var apod: APOD?
     @Published var errorMessage: String?
 
-    private let apiKey = "7mcnzjS2pAluJZlNUjGxOY74dIX3fGRKsklpkQqm"  //API KEY
+    private let apiKey = "7mcnzjS2pAluJZlNUjGxOY74dIX3fGRKsklpkQqm"  // API Key
 
     func fetchAPOD() {
         let urlString = "https://api.nasa.gov/planetary/apod?api_key=\(apiKey)"
@@ -67,7 +65,7 @@ struct InfoView: View {
                         .foregroundColor(.white)
                         .padding()
 
-                    // Carica l’immagine da URL
+                    // carica l’immagine da URL
                     AsyncImage(url: URL(string: apod.url)) { image in
                         image
                             .resizable()

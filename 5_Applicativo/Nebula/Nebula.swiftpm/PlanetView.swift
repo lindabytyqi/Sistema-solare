@@ -1,8 +1,6 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Animazione orbitale pianeti SwiftUI
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: animazione orbitale pianeti SwiftUI
+//Data: 09.09.2025
 import SwiftUI
 
 struct PlanetView: View {

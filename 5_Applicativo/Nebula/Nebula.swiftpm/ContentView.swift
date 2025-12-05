@@ -1,30 +1,27 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Creazione della pagina iniziale
-Data: 09.09.2025
-*/
-
+//Autore: Linda Bytyqi
+//Descrizione: creazione della pagina iniziale
+//Data: 09.09.2025
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationStack { //Permette di navigare
+        NavigationStack { //permette di navigare
             ZStack {
-                //Immagine di sottofondo
-                Image("Background") 
+                //immagine di sfondo
+                Image("Background")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
                 
                 VStack(spacing: 30) {
-                    //Scritta iniziale
+                    //scritta iniziale
                     Text("Welcome to Nebula!")
                         .foregroundColor(.white)
                         .bold()
                         .font(.largeTitle)
                         .multilineTextAlignment(.center)
                     
-                    NavigationLink(destination: HomeView()) { //Quando viene schiacciato il frame si va nella HomeView
+                    NavigationLink(destination: HomeView()) { //quando viene cliccato il frame si va nella HomeView
                         Text("Explore space, one planet at a time")
                             .foregroundColor(.black)
                             .font(.title2)
@@ -38,8 +35,7 @@ struct ContentView: View {
         }
     }
 }
-
-//Anteprima interattiva della ContentView
+//anteprima interattiva della ContentView
 #Preview {
     ContentView()
 }

@@ -1,8 +1,6 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Pagina dettagli con testo e video
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: pagina dettagli con testo e video
+//Data: 09.09.2025
 import SwiftUI
 import AVKit
 
@@ -11,7 +9,7 @@ struct PlanetDetailView: View {
     
     var body: some View {
         ScrollView {
-            //Nome pianeta
+            //nome pianeta
             VStack(spacing: 20) {
                 Text(planet.name)
                     .font(.largeTitle)
@@ -19,16 +17,14 @@ struct PlanetDetailView: View {
                     .multilineTextAlignment(.center)
                     .padding(.top, 20)
                     .minimumScaleFactor(0.7)
-                
-                //Immagine pianeta
+                //immagine pianeta
                 Image(planet.name)
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: 250)
                     .shadow(radius: 10)
                     .padding(.bottom, 10)
-
-                //Descrizione pianeta
+                //descrizione pianeta
                 VStack(alignment: .leading, spacing: 15) {
                     ForEach(planet.details, id: \.self) { paragraph in
                         Text(paragraph)
@@ -39,8 +35,7 @@ struct PlanetDetailView: View {
                             .minimumScaleFactor(0.8)
                     }
                 }
-                
-                //Video pianeta
+                //video del pianeta
                 if let video = planet.video {
                     if let url = Bundle.main.url(forResource: video.url.replacingOccurrences(of: ".mp4", with: ""), withExtension: "mp4") {
                         VideoPlayer(player: AVPlayer(url: url))
@@ -58,7 +53,7 @@ struct PlanetDetailView: View {
             }
             .frame(maxWidth: .infinity)
         }
-        //Sfondo
+        //sfondo
         .background(
             Image("sfondo2")
                 .resizable()

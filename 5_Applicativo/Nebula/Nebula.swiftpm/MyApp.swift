@@ -1,8 +1,6 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Punto di avvio dell’applicazione SwiftUI
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: punto di avvia dell'applicazione SwiftUI
+//Data: 09.09.2025
 import SwiftUI
 
 @main

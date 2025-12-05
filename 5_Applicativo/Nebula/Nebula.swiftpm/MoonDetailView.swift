@@ -1,8 +1,6 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Gestione API Moon Phase + pagina dedicata alla Luna
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: gestione API Moon Phase + pagina dedicata alla Luna
+//Data: 09.09.2025
 import SwiftUI
 
 struct APIVerveMoonResponse: Decodable {
@@ -18,55 +16,67 @@ struct MoonDetailView: View {
     @State private var phase: String = "Loading..."
     @State private var errorMessage: String? = nil
     
+    // limiti per schermi grandi -> MacOS
+    let maxLabelFontSize: CGFloat = 40     // dimensione max per il testo 
+    let maxPhaseFontSize: CGFloat = 60     // dimensione max per la fase lunare
+    let maxContentWidth: CGFloat = 800     // larghezza max del contenuto su iPad/Mac
+    
     var body: some View {
         GeometryReader { geo in
+            // calcolo del fattore di scala basato sul minimo tra larghezza e altezza
+            let scaleFactor = min(geo.size.width, geo.size.height)
+            
             ZStack {
-                //Sfondo stellato
+                // sfondo stellato
                 Image("sfondo2")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
                 
-                VStack(spacing: geo.size.height * 0.03) {
-                    //Immagine della Luna
-                    Image("Moon")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: geo.size.width * 0.4, height: geo.size.width * 0.4)
-                        .shadow(radius: 10)
-                        .overlay(
-                            Circle()
-                                .stroke(Color.white.opacity(0.3), lineWidth: geo.size.width * 0.01)
-                                .blur(radius: geo.size.width * 0.02)
-                        )
-                    
-                    Text("Current Moon Phase")
-                        .font(.system(size: geo.size.width * 0.06, weight: .bold))
-                        .foregroundColor(.white)
-                    
-                    //Fase della Luna dall'API
-                    Text(phase)
-                        .font(.system(size: geo.size.width * 0.08, weight: .semibold))
-                        .foregroundColor(.yellow)
-                    
-                    //Eventuale messaggio di errore
-                    if let e = errorMessage {
-                        Text("Error: \(e)")
-                            .foregroundColor(.red)
-                            .multilineTextAlignment(.center)
-                            .padding(.horizontal)
+                ScrollView {
+                    VStack {
+                        Image("Moon")
+                            .resizable()
+                            .scaledToFit()
+                        // dimensionamento basato sul nuovo scaleFactor (più stabile)
+                            .frame(width: scaleFactor * 0.4, height: scaleFactor * 0.4)
+                            .shadow(radius: 10)
+                            .overlay(
+                                Circle()
+                                //adattamento anche dello spessore del bordo
+                                    .stroke(Color.white.opacity(0.3), lineWidth: scaleFactor * 0.01)
+                                    .blur(radius: scaleFactor * 0.005)
+                            )
+                        
+                        Text("Current Moon Phase")
+                            .font(.system(size: min(scaleFactor * 0.05, maxLabelFontSize), weight: .bold))
+                            .foregroundColor(.white)
+                        
+                        //fase della Luna dall'API
+                        Text(phase)
+                            .font(.system(size: min(scaleFactor * 0.07, maxPhaseFontSize), weight: .semibold))
+                            .foregroundColor(.yellow)
+                        
+                        // eventuale messaggio di errore
+                        if let e = errorMessage {
+                            Text("Error: \(e)")
+                                .foregroundColor(.red)
+                                .multilineTextAlignment(.center)
+                                .padding(.horizontal)
+                        }
+                        
+                        // calendario lunare
+                        Image("MoonCalendar")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(maxWidth: .infinity, maxHeight: geo.size.height * 0.4)
+                            .shadow(radius: 5)
+                        
+                        Spacer()
                     }
-                    
-                    //Calendario lunare 
-                    Image("MoonCalendar")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(height: geo.size.height * 0.4)
-                        .shadow(radius: 5)
-                    
-                    Spacer()
+                    .frame(maxWidth: maxContentWidth) 
                 }
-                .padding(.horizontal, geo.size.width * 0.05)
+                .padding(.horizontal, scaleFactor * 0.05)
                 .padding(.top, geo.size.height * 0.05)
             }
         }

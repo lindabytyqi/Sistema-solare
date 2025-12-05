@@ -1,17 +1,15 @@
-/*
-Autore: Linda Bytyqi
-Descrizione: Creazione del Sistema Solare, dello zoom, della Luna e della NavBar
-Data: 09.09.2025
-*/
+//Autore: Linda Bytyqi
+//Descrizione: creazione del Sistema Solare, dello zoom, della Luna e della NavBar
+//Data: 09.09.2025
 import SwiftUI
 
 struct HomeView: View {
-    let planetsData = PlanetData.load() //Prende i dati da PlanetData
+    let planetsData = PlanetData.load() //prende i dati dei pianeti da PlanetData
     
-    //Array con tutti i pianeti
+    //array con tutti i pianeti
     let orbitals = [
-        //("Nome pianeta", raggio orbitale, dimensione, velocità)
-        ("Mercury", 80.0, 4.0, 20.0), 
+        //("nome pianeta", raggio orbitale, dimensione, velocità)
+        ("Mercury", 80.0, 4.0, 20.0),
         ("Venus", 110.0, 6.0, 30.0),
         ("Earth", 140.0, 8.0, 50.0),
         ("Mars", 170.0, 10.0, 30.0),
@@ -20,79 +18,77 @@ struct HomeView: View {
         ("Uranus", 260.0, 16.0, 35.0),
         ("Neptun", 290.0, 18.0, 30.0)
     ]
-    
-    //Usati per gestire lo zoom
-    @State private var scale: CGFloat = 1.0
-    @State private var lastScale: CGFloat = 1.0
+    //scala della pagina
+    @State private var scale: CGFloat = 0.7
+    @State private var lastScale: CGFloat = 0.7
     
     var body: some View {
         ZStack {
             
-            //se la scala < 0.7, mostra la galassia
+            // se la scala è < 0.7, mostra la galassia
             if scale < 0.7 {
                 Image("Galaxy")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
             } else {
-                //se no il sistema solare
+                // se no il Sistema Solare
                 Image("Background")
                     .resizable()
                     .scaledToFill()
                     .ignoresSafeArea()
-               
-                Image("Sun")
-                    .resizable()
-                    .frame(width: 100, height: 100)
                 
-                //Mostra pianeti e navigazione
-                ForEach(planetsData, id: \.name) { planet in
-                    if let orbital = orbitals.first(where: { $0.0 == planet.name }) {
-                        NavigationLink(destination: PlanetDetailView(planet: planet)) {
-                            PlanetView(imageName: planet.name,
-                                       radius: orbital.1,
-                                       duration: orbital.2,
-                                       size: orbital.3)
+                ZStack {
+                    // immagine del Sole
+                    Image("Sun")
+                        .resizable()
+                        .frame(width: 100, height: 100)
+                    
+                    // mostra i pianeti e la navigaziome
+                    ForEach(planetsData, id: \.name) { planet in
+                        if let orbital = orbitals.first(where: { $0.0 == planet.name }) {
+                            NavigationLink(destination: PlanetDetailView(planet: planet)) {
+                                PlanetView(imageName: planet.name,
+                                           radius: orbital.1,
+                                           duration: orbital.2,
+                                           size: orbital.3)
+                            }
+                            .buttonStyle(PlainButtonStyle())
                         }
-                        .buttonStyle(PlainButtonStyle())
                     }
-                }
-                
-                //Creazione della Luna
-                VStack {
-                    HStack {
-                        Spacer()
+                    
+                    // creazione della Luna
+                    NavigationLink(destination: MoonDetailView()) { //quando la premi porta alla sus pagina di informazioni
                         Image("Moon")
                             .resizable()
                             .scaledToFit()
-                            .frame(width: 120, height: 70)
-                            .padding(.top, 10)
-                            .padding(.trailing, 20)
+                            .frame(width: 100, height: 90)
                             .shadow(radius: 10)
                     }
-                    Spacer()
+                    .buttonStyle(PlainButtonStyle())
+                    .offset(x: 220, y: -270)
                 }
+                .scaleEffect(scale)
             }
         }
-        
+        // zoom fluido
         .gesture(
             MagnificationGesture()
                 .onChanged { value in
-                    scale = lastScale * value
+                    let delta = value / lastScale
+                    scale *= delta
+                    scale = max(0.3, min(scale, 3.0))
+                    lastScale = value
                 }
                 .onEnded { _ in
-                    lastScale = scale
+                    lastScale = 1.0
                 }
         )
-        .scaleEffect(scale >= 0.7 ? scale : 1.0) 
-        
         //NavBar
         .navigationTitle("Solar System")
         .toolbar {
-            ToolbarItemGroup(placement: .topBar) {
-                NavigationLink("Home", destination: HomeView())
-                Spacer()
-                NavigationLink("Information of the day", destination: InfoView())
+            ToolbarItemGroup(placement: .topBarTrailing) {
+                NavigationLink("Picture of the Day", destination: InfoView())
             }
         }
     }
