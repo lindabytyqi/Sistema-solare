@@ -1,5 +1,0 @@
-Come prima cosa sostituire il progetto Nebula vecchio che si trova in locale con quello nuovo, poi eseguire i seguenti comandi per mettere le cose su GitHub:
-1) cd C:/Users/bto419/Sistema-solare
-2) git add .
-3) git commit -m "Informazioni sul pianeta"
-4) git push

@@ -4,7 +4,7 @@
 
 # Requisiti per far funzionare il progetto:
 # - Essere connesso ad Internet
-# - scaricare tutta la cartella 5_Applicativo presente in GitHub
+# - Scaricare tutta la cartella 5_Applicativo presente in GitHub
 # - Avere un dispositivo Apple (IpadOS o MacOS):
 #   - Opzione 1 (IpadOS): 
 #        - Avere Swift Playgrounds installato,
