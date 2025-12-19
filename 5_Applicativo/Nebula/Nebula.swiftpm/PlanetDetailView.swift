@@ -35,6 +35,8 @@ struct PlanetDetailView: View {
                             .minimumScaleFactor(0.8)
                     }
                 }
+                .navigationTitle("Planet informations")
+                .navigationBarTitleDisplayMode(.inline)
                 //video del pianeta
                 if let video = planet.video {
                     if let url = Bundle.main.url(forResource: video.url.replacingOccurrences(of: ".mp4", with: ""), withExtension: "mp4") {

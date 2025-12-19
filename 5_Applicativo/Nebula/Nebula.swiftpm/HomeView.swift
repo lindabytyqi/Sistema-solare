@@ -47,18 +47,20 @@ struct HomeView: View {
                     // mostra i pianeti e la navigaziome
                     ForEach(planetsData, id: \.name) { planet in
                         if let orbital = orbitals.first(where: { $0.0 == planet.name }) {
-                            NavigationLink(destination: PlanetDetailView(planet: planet)) {
+                            NavigationLink(destination: PlanetDetailView(planet: planet)){
                                 PlanetView(imageName: planet.name,
                                            radius: orbital.1,
                                            duration: orbital.2,
                                            size: orbital.3)
                             }
                             .buttonStyle(PlainButtonStyle())
+                            
                         }
                     }
                     
                     // creazione della Luna
-                    NavigationLink(destination: MoonDetailView()) { //quando la premi porta alla sus pagina di informazioni
+                    NavigationLink(destination: MoonDetailView()){
+                        //quando la premi porta alla sus pagina di informazioni
                         Image("Moon")
                             .resizable()
                             .scaledToFit()
@@ -67,6 +69,7 @@ struct HomeView: View {
                     }
                     .buttonStyle(PlainButtonStyle())
                     .offset(x: 220, y: -270)
+                    .foregroundColor(.white)
                 }
                 .scaleEffect(scale)
             }
@@ -90,6 +93,7 @@ struct HomeView: View {
             ToolbarItemGroup(placement: .topBarTrailing) {
                 NavigationLink("Picture of the Day", destination: InfoView())
             }
+            
         }
     }
 }

@@ -84,14 +84,21 @@ struct InfoView: View {
                         .foregroundColor(.red)
                         .padding()
                 } else {
-                    ProgressView("Loading...")
+                    Image("Loading")
+                        .resizable()
+                        .scaledToFill()
+                       // .frame(maxWidth: 700, maxHeight: 900)
+                        .background(.white)
+                    
+                    Text("Loading picture of the day...")
                         .foregroundColor(.white)
-                        .padding()
                 }
-
                 Spacer()
             }
+            
         }
+        .navigationTitle("Picture of the Day")
+        .navigationBarTitleDisplayMode(.inline)
         .background(Color.black.edgesIgnoringSafeArea(.all))
         .onAppear {
             viewModel.fetchAPOD()
