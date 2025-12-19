@@ -16,7 +16,7 @@ Requisiti per far funzionare il progetto:
         - Aprire il file Nebula.swiftpm,
         - Avviare l'applicativo
 
-# IN CASO DI ERRORE NELL'OPZIONE 2:
-        - Utilizzare Swift Playgrounds,
-        - Aprire la cartella (/5_Applicativo/Nebula),
-        - Avviare l'applicativo
+IN CASO DI ERRORE NELL'OPZIONE 2:
+- Utilizzare Swift Playgrounds,
+- Aprire la cartella (/5_Applicativo/Nebula),
+- Avviare l'applicativo
